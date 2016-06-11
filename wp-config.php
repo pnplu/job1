@@ -37,6 +37,8 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+@ini_set( 'upload_max_size' , '500M' ); @ini_set( 'post_max_size', '500M'); @ini_set( 'memory_limit', '500M' );
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
